@@ -1,6 +1,6 @@
 const getPosts = ()=>{
 
-    let fetchPosts = fetch("http://jsonplaceholder.typicode.com/posts");
+    let fetchPosts = fetch("https://jsonplaceholder.typicode.com/posts");
     let allPostTitle = '';
     
     fetchPosts.then((response)=>{
